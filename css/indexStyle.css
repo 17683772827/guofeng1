@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+#topNav{
+    width: 100%;
+    height: 40px;
+    background: black;
+}
+#topNavBox{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    font-size: 12px;
+}
+#topNavBox >ul {
+    list-style: none;
+
+}
+#topNavBox >ul[float~=left]{
+    float: left;
+}
+#topNavBox >ul[float~=right]{
+    float: right;
+    /*margin-right: 20px;*/
+}
+#topNavBox >ul >li {
+    /*background: #c4ffd0;*/
+
+    width: auto;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+
+
+
+}
+#topNavBox a{
+    text-decoration: none;
+    /*color: #eeeeee;*/
+
+}
+
+#topNavBox a:hover{
+    color: white;
+
+}#downloadApp:hover #downloadAppSelect{
+    height: 140px;
+ }
+
+
+#downloadAppSelect{
+    /*display: none;*/
+    width: 120px;
+    height: 0;
+    background: white;
+    position: absolute;
+    top:40px;
+    left: -20px;
+    z-index: 999;
+    /*padding: 10px 10px 0 10px;*/
+    text-align: center;
+    color: black;
+    line-height: 10px;
+    overflow: hidden;
+    transition: height 200ms;
+    -webkit-transition:  height 200ms;
+    -moz-transition:  height 200ms;
+
+
+
+}
+#downloadAppSelect img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+#topNavBox >ul >li >a{
+    display: block;
+    color: #a8a8a8;
+    height: 40px;
+    width: 100%;
+
+
+}
+#shoppingTrolley{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+
+    float: right;
+    position: relative;
+
+}
+
+#shoppingTrolley a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #a8a8a8;
+    transition: background-color 200ms;
+}
+#shoppingTrolley:hover a{
+    background: white;
+    color: orange;
+
+}
+#shoppingTrolley:hover #trolleyBox{
+    height: 100px;
+}
+
+#trolleyBox{
+    background: white;
+    width: 200px;
+    height: 0;
+    position: absolute;
+    left: -100px;
+    transition: height 200ms;
+    overflow: hidden;
+    z-index: 999;
+    -webkit-transition: height 200ms;
+    -moz-transition: height 200ms;
+}
+
+
+/*head style*/
+#head{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    float: left;
+
+}
+#headBox{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    background: white;
+    position: relative;
+}
+#logo{
+    height: 100%;
+    width: 250px;
+    background-color:white;
+    position: relative;
+    float: left;
+}
+#logImgBox{
+    width: 50px;
+    height: 50px;
+    background: #ff6700;
+    float: left;
+    margin: 10px;
+}
+#allGoods{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    float: right;
+    line-height: 100px;
+    text-align: center;
+
+}
+#allGoods a{
+    text-decoration: none;
+    color: black;
+}
+
+#headNav{
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    position: relative;
+
+}
+#headNav ul{
+    list-style: none;
+    /*float: left;*/
+}
+#headNav >ul >li{
+    width: auto;
+    height: 100px;
+    background-color: white;
+
+    /*float: left;*/
+    float: left;
+    line-height: 100px;
+
+}
+#headNav >ul >li >a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 17px;
+
+}
+
+#headNav >ul >li >a:hover ,#headNav >ul >li:hover a{
+    color: #ff6700;
+}
+
+#search{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+#navDetailsBox{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+
+    z-index: 999;
+
+}
+
+#navDetails{
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    display: block;
+
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid gray;
+
+
+}
+
+/*#headNav:hover #navDetails{
+    -webkit-animation: navDetailst 1s;
+    -o-animation: navDetailst 1s;
+    animation: navDetailst 1s;
+}*/
+
+#navDetails >ul>li{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: white;
+    float: left;
+
+
+}
+#navDetails >ul>li a{
+    text-decoration: none;
+    color: black;
+}
+#navDetails >ul>li .price{
+    color: #ff6700;
+    font-size: 12px;
+}
+#wrap{
+    width: 1200px;
+    height: auto;
+    /*background-color: blue;*/
+    margin: 100px auto;
+    position: relative;
+}
+#topGoods{
+    width: 1200px;
+    height: 500px;
+
+    /*background-color: #ff4031;*/
+    margin:auto;
+    position: relative;
+}
+#siteCategory{
+    width: 250px;
+    height: 500px;
+    background-color: rgba(105,101,101,.6);
+    float: left;
+    position: relative;
+
+}
+#siteCategory > ul{
+    margin-top: 40px;
+}
+#siteCategory > ul>li{
+    width: 100%;
+    height: 40px;
+    /*background-color: #ff6700;*/
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+}
+#siteCategory > ul>li>a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    /*text-align: center;*/
+}
+#siteCategory > ul>li:hover{
+    background-color: #ff6700;
+}
+#commodityList{
+    width: 950px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    display: none;
+    overflow: hidden;
+    z-index: 999;
+}
+.commodityList{
+    display: block;
+    /*background-color: blue;*/
+    width: 200px;
+    height: 50px;
+    float: left;
+
+    margin: 16px 15px;
+    line-height: 50px;
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+
+
+}
+.commodityList img{
+    float: left;
+}
+#commodityList a:hover{
+    color: #ff6700;
+}
+#slideShow{
+    float: left;
+    width: 950px;
+    height: 500px;
+    /*background-color: orange;*/
+    position: relative;
+
+}
+.slideButton{
+    width: 41px;
+    height: 69px;
+    background-color: blue;
+    float: left;
+
+}
+.slideButton a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#leftButton :hover{
+    background: url("../images/icon-slides.png")  no-repeat 0px ;
+
+}
+#rightButton :hover{
+    background: url("../images/icon-slides.png")  no-repeat -42px ;
+
+}
+#leftButton{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    background: url("../images/icon-slides.png") no-repeat -84px ;
+}
+#rightButton{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    background: url("../images/icon-slides.png")  no-repeat -125px ;
+}
+#slideList{
+    width: auto;
+    height: 10px;
+    /*background-color: blue;*/
+    position: absolute;
+    top: 450px;
+    right: 20px;
+
+}
+.slideLength{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.34);
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #525252;
+}
+#slideShowImages{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+}
+#slideShowImages img{
+    width: 1200px;
+    height: 500px;
+    display: none;
+    /*animation:slide-show 2s;*/
+
+}
+
+/*@keyframes slide-show {
+    from{display: none;opacity: 0;}
+    to{display: block;opacity: 1;}
+}*/
+#navFooter{
+    width: 1200px;
+    height: 200px;
+    margin: 20px auto;
+    /*background: #ff6700;*/
+}
+#navFooter-list1{
+    width: 250px;
+    height: 100%;
+    background: #5f5750;
+    float: left;
+    /*margin-right: 5px;*/
+}
+.navFooter-list2{
+    width: 300px;
+    height: 100%;
+    /*background: blue;*/
+    float: left;
+    margin-left: 16px;
+}
+.navFooter-list2 img{
+    width: 100%;
+    height: 100%;
+}
+#navFooter-list1 a{
+    display: block;
+    width: 80px;
+    height: 100px;
+    /*background: blue;*/
+    float: left;
+    margin-right: 3px;
+    text-decoration: none;
+    color: #b4b4b4;
+    text-align: center;
+    font-size: 12px;
+
+}
+#navFooter-list1 a>img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+}
+#navFooter-list1 a:hover{
+    color: white;
+}
+
+
